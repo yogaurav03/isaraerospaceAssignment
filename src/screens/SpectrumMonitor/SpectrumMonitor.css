@@ -1,0 +1,32 @@
+/* SpectrumMonitor.css */
+
+/* Adjust styles based on your specific design preferences */
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  border-right: 1px solid #ddd; /* Adding a border between SpectrumMonitor and SpectrumStatus */
+}
+/* Style for sensor data display */
+.sensorData {
+  margin-bottom: 16px;
+}
+
+/* Style for live streaming or chart display */
+.liveStream {
+  width: 100%;
+  height: 300px; /* Adjust height based on your design */
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+/* Style for critical status or action required notification */
+.criticalStatus {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+/* Additional styles can be added based on your specific requirements */
